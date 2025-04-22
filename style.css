@@ -40,10 +40,26 @@ button{
 
 button:hover{
     background-color: #afc7b9;
-    transition: all 0.3%
+    transition: all 0.3s
 }
 
 p{
     font-size: 18px;
 }
 
+body.dark {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    transition: all 0.3s;
+}
+
+body.dark .tarjeta {
+    background-color: grey;
+    transition: all 0.3s;
+}
+
+body.dark tarjeta h1, 
+body.dark tarjeta p{
+    color: white;
+    transition: all 0.3s;
+}
