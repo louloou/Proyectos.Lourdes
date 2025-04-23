@@ -24,7 +24,56 @@ html, body{
 .navbar .izquierda span {
     margin: 1rem ;
 }
+.navbar .derecha button {
+    border: none;
+    background-color:  #2aabcf ;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 0.3rem;
+}
 
+.tarjeta{
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    background-color: #ffffff ;
+    box-shadow: 0 0 10px rgba (0, 0, 0, 0, 0.2);
+    border-radius: 0.5rem ;
+}
+
+.fila-dinero h5, h6 {
+    color: grey;
+}
+
+.fila-dinero, .fila-ganancias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fila dinero .derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.fila-movimientos button{
+    width: 48%;
+    margin: 0 0.3rem 0rem 0.3rem;
+    padding: 0.5rem 0 0.5 rem 0;
+}
+
+.fila-movimientos button{
+    width: 48%;
+    margin: 0 0.3rem;
+    padding: 0.5rem;
+}
+.btn-info{
+    background-color: #c3f2ff;
+    border: none;
+    color: #0087bd;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
 /* #24c0eb
 #5cceee
 #cacaca 
