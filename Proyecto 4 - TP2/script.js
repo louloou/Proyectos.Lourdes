@@ -40,16 +40,19 @@ for (let i = 0; i < numeros.length; i++) {
 }
 
 //Ejercicio 4
-//1 Crea un arreglo de números
-let numerosPares = ['2', '4', '6', '8'];
+// Crear un arreglo de números
+let numeros4 = [5, 10, 15, 20, 25];
 
-//2 Usa un ciclo for para sumar todos los elementos
+// Variable para almacenar la suma
 let suma = 0;
-for (let i = 0; i < numerosPares.length; i++) {
-    suma += parseInt(numerosPares[i]); // revisar en casa
+
+// Usar un ciclo for para sumar los elementos
+for (let i = 0; i < numeros4.length; i++) {
+  suma += numeros4[i];
 }
-//3 Muestra el resultado con console.log
-console.log("La suma es:", suma);
+
+// Mostrar el resultado
+console.log("La suma de los elementos es:", suma);
 
 //Ejercicio 5
 //1 Pide al usuario que escriba cinco palabras (una por una con prompt)
