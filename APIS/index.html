@@ -1,23 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PokeApi</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex Simple</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="caja">
-        <h1 id="titulo">Nombre Pokemon</h1>
-        <img id="imagen" src="" alt="Imagen del Pokemon">
-        <div class="botones">
-            <button id="boton"> Mostrar </button>
-            
-        </div>
-    </div>
-</body>
-<script src="java.js"></script>
+  <div class="container">
+    <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" alt="Pokémon Logo" class="logo">
 
+    <div id="pokedex" class="grid">
+      <div class="card">
+        <img id="pokemon1" src="" alt="Pokemon 1">
+        <h3 id="nombre1"></h3>
+      </div>
+      <div class="card">
+        <img id="pokemon2" src="" alt="Pokemon 2">
+        <h3 id="nombre2"></h3>
+      </div>
+      <div class="card">
+        <img id="pokemon3" src="" alt="Pokemon 3">
+        <h3 id="nombre3"></h3>
+      </div>
+      <div class="card">
+        <img id="pokemon4" src="" alt="Pokemon 4">
+        <h3 id="nombre4"></h3>
+      </div>
+      <div class="card">
+        <img id="pokemon5" src="" alt="Pokemon 5">
+        <h3 id="nombre5"></h3>
+      </div>
+      <div class="card">
+        <img id="pokemon6" src="" alt="Pokemon 6">
+        <h3 id="nombre6"></h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="java.js"></script>
+</body>
 </html>
