@@ -8,6 +8,7 @@ boton.onclick = function (){
     .then (datos => {
         console.log(datos)
         titulo.textContent = datos.name
-        imagen.src = datos.sprites.font_shiny 
+        imagen.src = datos.sprites.front_shiny
     })
-}
+} 
+
